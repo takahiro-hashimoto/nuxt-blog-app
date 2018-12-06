@@ -48,7 +48,7 @@ module.exports = {
   ** Axios module configuration
   */
   axios: {
-    // See https://github.com/nuxt-community/axios-module#options
+    baseURL: 'https://nuxt-blog-service-f0a96.firebaseio.com'
   },
 
   /*
@@ -59,7 +59,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
